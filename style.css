@@ -1,13 +1,31 @@
 /*
-- SPACING SYSTEM (px)    
-2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 88 / 96 / 128
-    
-- FONT SIZE SYSTEM (px)
+----- 01 TYPOGRAPHY SYSTEM -----
+
+- Font size (px)
 10 / 12 / 14 / 16 / 18 / 28 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 
+- Font weights
+Default: 400
 
+-font heights
+Default: 1
 
+----- 02 COLOS -----
 
+- Primary: (https://yeun.github.io/open-color/) => tham khảo
+- Tints: (https://maketintsandshades.com/) => lấy từ màu Primary
+- Shades:
+- Acents: 
+- Greays: #555
+
+----- 05 SHADOWS -----
+
+----- 07 BORDER-RADIUS -----
+
+----- 08 WHITE SPACE -----
+
+- spacing system (px)    
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 88 / 96 / 128
 */
 
 /* reset css */
@@ -25,7 +43,7 @@ html {
 
 body {
     font-family: sans-serif;
-    /* line-height: 1; */
-    /* font-weight: 400; */
-    /* color: #555; */
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
 }
